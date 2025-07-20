@@ -45,7 +45,7 @@ nav a {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=1600&q=80') no-repeat center center/cover;
+  background: url('hero-banner.jpg') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
