@@ -1,0 +1,115 @@
+/* Basic reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Page wrapper for sticky footer */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid black;
+}
+
+.navbar span {
+  color: brown;
+  font-weight: 600;
+}
+
+.Logo {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+/* About Us section */
+.about-us {
+  padding: 2em;
+  line-height: 1.6;
+}
+
+.about-us h1,
+.about-us h2 {
+  color: brown;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.about-us .intro,
+.about-us .mission,
+.about-us .vision,
+.about-us .team {
+  margin-bottom: 1.6em;
+  text-align: center;
+}
+
+.about-us p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Footer styling */
+footer {
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+footer .highlight {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ff9900;
+}
