@@ -57,29 +57,55 @@ nav ul li:hover{
 .hero span{
     color: black;
 }
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  
-  .left, .right {
-    display: flex;
-    flex-direction: column;
-    background-color: brown;
-    padding: 10px;
-    color: brown;
-  }
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 40px;
+}
 
-  .left, .right{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .left {
-    text-align: left;
-  }
-  
-  .right {
-    text-align: right;
-  }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left ul,
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-left li,
+.footer-right li {
+  margin-bottom: 10px;
+}
+
+.footer-left a,
+.footer-right a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-left a:hover,
+.footer-right a:hover {
+  color: #fff;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 19px;
+  color: #aaa;
+}
+
+.footer-bottom .highlight {
+  color: #f39c12; /* Highlight color for 'Ian' */
+  font-weight: bold;
+}
