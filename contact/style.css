@@ -7,7 +7,7 @@
 
 html, body {
     height: 100%;
-    overflow: hidden; /* prevents vertical scroll shifting */
+    overflow: hidden; 
 }
 
 body {
@@ -16,7 +16,6 @@ body {
     position: relative;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -58,7 +57,6 @@ nav ul li:hover {
     text-decoration: underline;
 }
 
-/* Contact Section */
 .contact {
     max-width: 600px;
     margin: auto;
@@ -107,7 +105,7 @@ nav ul li:hover {
     font-size: 14px;
     width: 100%;
     outline: none;
-    resize: none; /* disables resizing */
+    resize: none; 
 }
 
 .contact form textarea {
@@ -147,4 +145,3 @@ footer p span {
     color: brown;
     font-weight: 600;
 }
-
